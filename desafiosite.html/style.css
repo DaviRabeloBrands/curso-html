@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+
+
+
+:root{
+    --cor0: #000000;
+    --cor1:ffffff;
+
+    --fonte-padrao: Arial,Verdana, Helvetica, sans-serif;
+    --fonte-destaque: Helvetica;
+}
+
+   * {
+        margin: 0px;
+        padding: 0px;
+    }
+
+body {
+    background-color: rgb(186, 255, 186);
+    font-family: Arial, Helvetica, sans-serif;
+}
+main p{
+ margin: 15px 0px ; 
+ text-align: justify;
+ text-indent:  30px;
+ line-height: 2em; 
+ font-size: 1em;
+}
+main strong{
+    color: #256d1c;
+    font-weight: bold;
+    background-color: #194e12;
+}
+header {
+    background-color: rgb(32, 77, 32);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+}
+header > h1 {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            margin-bottom: 20px;
+}
+header > p{
+    color: white;
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+}
+nav{
+    background-color: #185b88;
+    padding: 10px;
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
+}
+nav > a {
+    color: rgb(240, 240, 240);
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav > a:hover{
+    background-color: #256d1c;
+}
+h2{
+            background-color: aqua;
+            color: green;
+}
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: 20px;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px #0000006e;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    margin: auto;
+}
+div.video{
+    background-color: #256d1c;
+    margin: 0px -20px 30px -20px;
+    padding: 10px;
+    padding-bottom: 50%;
+    position: relative;
+}
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+main img {
+    width: 100%;
+}
+main img.pequena{
+max-width: 350px;
+display: block;
+margin: auto;
+}
+aside{
+    background-color: #256d1c;
+    padding: 10px;
+    border-radius: 10px;
+}
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+}
+aside > h3 {
+    background-color: #194e12;
+    color: white;
+    padding:  5px;
+    margin:  -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+footer{
+            background-color: green;
+            color: white;
+            text-align: center;
+            margin: auto;
+            
+}
